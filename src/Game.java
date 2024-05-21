@@ -20,6 +20,8 @@ public class Game {
     Car Stake = new Car("Stake", 61, 64, 60, 64, 0);
 
 
+
+    Driver Verstappen = new Driver("Max Verstappen", Redbull.getEngine(), Redbull.getAerodynamics(), Redbull.getReliability(), Redbull.getWeight(), Redbull.getPoints());
     public Game() { //This one is called from Main
 
         StartMenu();

@@ -6,7 +6,7 @@ public class Car extends Vehicle {
 
 
     //The Cars attributes is linked to an array
-    public Car(String name, int engineStats, int aerodynamicStats, int reliabilityStats, int weightStats, int pointsRandom) {
+    public Car(String name, int engineStats, int aerodynamicStats, int reliabilityStats, int weightStats, double pointsRandom) {
         super(name, engineStats);
         setEngine(engineStats);
         setAerodynamics(aerodynamicStats);

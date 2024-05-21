@@ -7,7 +7,7 @@ public class Driver  {
 
     Random random = new Random();
 
-    public Driver(String name, int engineStats, int aerodynamicStats, int reliabilityStats, int weightStats, int pointsRandom) {
+    public Driver(String name, int engineStats, int aerodynamicStats, int reliabilityStats, int weightStats, double pointsRandom) {
         //super(name, engineStats, aerodynamicStats, reliabilityStats, weightStats, pointsRandom);
     }
 
